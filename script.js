@@ -1,4 +1,4 @@
-/* JavaScript Code */
+/* JavaScript Code ... ES6 Syntax */
 
 (function () {
     const board = document.getElementById("connect-four");
