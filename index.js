@@ -30,9 +30,9 @@ $columns.on("click", function (event) {
         return;
     }
 
-    // check the column
+    // check the column winner
     checkWinner($columnPositions);
-    // check the row
+    // check the row winner
     var $rowPositions = getRowPositions(rowIndex);
 
     checkWinner($rowPositions);
