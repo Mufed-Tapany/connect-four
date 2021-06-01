@@ -1,6 +1,6 @@
 /* JavaScript Code ... ES6 Syntax */
 
-(function () {
+(() => {
     const board = document.getElementById("connect-four");
     const columns = board.querySelectorAll(".column");
     const positions = board.querySelectorAll(".position");
